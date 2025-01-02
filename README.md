@@ -1,4 +1,5 @@
-****Twitter Sentiment Analysis****
+<font size="10">****Twitter Sentiment Analysis****</font>
+
 This project performs sentiment analysis on tweets using a Logistic Regression model. It classifies tweets into two categories:
 
 **Positive sentiment
@@ -17,9 +18,8 @@ Model: Logistic Regression.
 **Accuracy:**
 _Training: 79.87%
 Testing: 77.67%_
-Features
-**Data Preprocessing:
-**
+
+**Data Preprocessing:**
 Text cleaning (removing punctuation, special characters, etc.).
 Stopword removal.
 Stemming of words for reducing redundancy.
@@ -31,8 +31,8 @@ Model Training and Testing:
 Logistic Regression is used for classification.
 Model evaluated on training and testing datasets with accuracy scores.
 
-**Train the Model:
-**Split the dataset into training (80%) and testing (20%) sets.
+**Train the Model:**
+Split the dataset into training (80%) and testing (20%) sets.
 Train a Logistic Regression model using TF-IDF features.
 Evaluate the Model:
 Evaluate the model's accuracy on the testing set.
@@ -43,6 +43,7 @@ Use the trained model to predict the sentiment of a tweet:
 **Results**
 Training Accuracy: 79.87%
 Testing Accuracy: 77.67%
+
 **Future Work**
 Use deep learning models (e.g., LSTMs, BERT) to improve accuracy.
 Add visualization for data analysis and model performance.
